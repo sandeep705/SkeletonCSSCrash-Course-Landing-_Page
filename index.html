@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" />
+	<title>SkeletonCSS Cheat Sheet</title>
+	<style>
+		.columns, .columns {
+			background: #f4f4f4;
+			border: 1px #ccc solid;
+			padding: 10px;	
+		}
+		.one-third-column, .two-third-column {
+		float: left;
+		width: 33.33%;
+		padding: 10px;
+		border: 1px #ccc solid;
+		background: #f4f4f4;
+		line-height: 20px;
+		box-sizing: border-box;
+		margin: 30px;
+		height: 100px;
+		}
+		.one-half-colum {
+			width: 50%;
+			padding: 10px;
+			background: #f4f4f4;
+			border: 1px #ccc solid;
+			margin: 30px;
+		    height: 100px;
+		}
+		.row {
+			display: flex;
+		}
+
+		  
+
+
+		
+	</style>	
+</head>
+<body>
+	<div class="container">
+		<!-- HEADING -->
+		<h1>Heading</h1>
+		<h2>Heading</h2>
+		<h3>Heading</h3>
+	    <h4>Heading</h4>
+		<h5>Heading</h5>
+		<h6>Heading</h6>
+
+		<!-- FLOATING -->
+		<h2 class="u-pull-left">Left</h2>
+		<h2 class="u-pull-right">Right</h2>
+
+		<!-- BUTTONS -->
+		<button>Buttons</button>
+		<input type="Submit" value="Submit">
+		<input type="button" value="Submit">
+		<a href="#" class="button">Link</a>
+
+		<br>
+		<!-- PRIMARY BUTTONS -->
+			<button class="button-primary">Button</button>
+		<input class="button-primary" type="Submit" value="Submit">
+		<input class="button-primary" type="button" value="Submit">
+		<a href="" class="button button-primary">Link</a>
+
+		<br>
+
+		<!-- FULL WIDTH (not just for buttons) -->
+		<button class="u-full-width button-primary">Full Width Button</button>
+
+		<!-- LIST -->
+		<ul>
+			<li>Home</li>
+			<li>About</li>
+			<li>Services
+	        <ul>
+	        	<li>Web design</li>
+	        	<li>Programing</li>
+	        </ul>
+			</li>
+			<li>contact</li>
+		</ul>
+		<!-- CODE BLOCK -->
+		<pre>
+			<code>
+				body {
+				color: #fff;
+				background: #000;
+			}
+			</code>
+		</pre>
+		<!-- TABLES  -->
+		<table class="u-full-width">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Email</th>
+					<th>City</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>John Doe</td>
+					<td>gdoe@gmail.com</td>
+					<td>New York</td>
+				</tr>
+				<tr>
+					<td>Ellen stevens</td>
+					<td>ellen@yahoo.com</td>
+					<td>New York</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<!--FORMS  -->
+		<form>
+			<div>
+				<label>Name</label>
+				<input class="u-full-width" type="text"
+				 placeholder="Enter Name">
+			</div>
+			<div>
+			<label>Membersheep</label>
+			<select>
+				<option value="1">Membersheep 1</option>
+				<option value="2">Membersheep 2</option>
+				<option value="3">Membersheep 3</option>
+			</select class="u-full-width">
+            </div>
+            <div>
+            	<label>Message</label>
+            	<textarea class="u-full-width" placeholder="Enter Message"></textarea>
+            </div>
+            <div>
+            	<label class="">
+            	<input typr="Checkbox">
+            		<span class="label-body">subscribe to email</span>
+            	</label>
+            </div>
+            <div>
+            	<input class="button-primary" type="Submit" value="Submit">
+            </div>
+		</form>
+
+		<!-- GRID -->
+		<div class="row">
+			<div class="eight columns">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+			</div>
+			<div class="four columns">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute </p>
+			</div>
+		</div>
+	           
+	     <br>
+
+		<div class="row">
+			<div class="six columns">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+			</div>
+			<div class="six columns">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute </p>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="one-third-column">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+			</div>
+			<div class="two-third-column">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+			</div>
+		</div>
+
+        <br>
+
+		<div class="row">
+			<div class="one-third-column">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+			</div>
+			<div class="one-third-column">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+			</div>
+			<div class="one-third-column">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+			</div>
+		</div>
+
+		<br>
+
+		<div class="row">
+			<div class="one-half-colum">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+			</div>
+			<div class="one-half-colum">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+			</div>
+		</div>
+	</div>
+	<div style ="margin-top: 500px;"></div>
+</body>
+</html>
